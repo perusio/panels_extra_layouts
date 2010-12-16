@@ -2,7 +2,7 @@
 
 // Plugin definition.
 $plugin = array(
-  'title' => t('Three column 42-29-29 stacked'),
+  'title' => t('Three column 42/29/29 stacked'),
   'category' => t('Columns: 3'), 
   'icon' => 'threecol_42_29_29_stacked.png',
   'theme' => 'panels_extra_layouts_threecol_42_29_29_stacked',

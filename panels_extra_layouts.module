@@ -4,11 +4,12 @@
  * Implementation of hook_ctools_plugin_directory().
  *
  * It simply tells panels where to find the .inc files that define various
- * args, contexts, content_types. In this case the subdirectories of
- * ctools_plugin_example/panels are used.
+ * args, contexts, content_types.
+ * 
  */
-function panels_extra_layouts_ctools_plugin_directory($module, $plugin) {
-  //  if ($module == 'panels_extra_layouts' && !empty($plugin)) {
-    return "plugins/$plugin";
-    //}
+function panels_extra_layouts_ctools_plugin_directory($owner, $plugin_type) {
+  // We're just providing layout plugins.
+  if ($owner == 'panels' && $plugin_type = 'layouts') {
+    return "plugins/$plugin_type";
+  }
 }
