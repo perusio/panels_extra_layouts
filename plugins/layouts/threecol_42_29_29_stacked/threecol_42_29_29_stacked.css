@@ -1,0 +1,23 @@
+/* CSS rules for the three column 42 29 29 stacked panelys layout */
+@import "base-grid.css";
+
+.panel-col-twenty-nine {
+  width: 29%;
+}
+.panel-col-forty-two {
+  width: 42%;
+}
+.panel-bottom {
+  width: 100%;
+}
+
+/* Margins taken from the Panels module plugins */
+.lastUnit .inside { 
+  margin: 0 0 1em .5em;
+}
+.firstUnit .inside {
+  margin: 0 .5em 1em 0;
+}
+.unit .inside {
+  margin: 0 .5em 1em .5em;
+}
