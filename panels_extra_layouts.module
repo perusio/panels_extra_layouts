@@ -11,5 +11,5 @@ function panels_extra_layouts_ctools_plugin_directory($owner, $plugin_type) {
   // We're just providing layout plugins.
   if ($owner == 'panels' && $plugin_type = 'layouts') {
     return "plugins/$plugin_type";
-    }
+  }
 }
