@@ -1,0 +1,33 @@
+/* CSS file for ptwines.net grid layout. */
+@import "base-grid.css";
+
+.header-left {
+  width: 55%;
+}
+.header-middle {
+  width: 15%;
+}
+.header-right {
+  width: 30%;
+}
+.top-stack {
+  width: 100%;
+}
+.bottom-unit, .left-column {
+  width: 25%;
+}
+.right-column {
+  width: 75%;
+}
+
+
+/* Margins taken from the Panels module plugins */
+.lastUnit .inside { 
+  margin: 0 0 1em .5em;
+}
+.firstUnit .inside {
+  margin: 0 .5em 1em 0;
+}
+.unit .inside {
+  margin: 0 .5em 1em .5em;
+}

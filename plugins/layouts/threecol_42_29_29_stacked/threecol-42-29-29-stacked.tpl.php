@@ -1,6 +1,6 @@
 <!-- -*-html-helper-*- -->
 <div class="panel-display panel-threecol-42-29-29-stacked clear-block"
-<?php if (!empty($css_id)) { print "id=\"$css_id\""}; ?>>
+<?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
   
   <div class="panel-panel line">
     <div class="panel-panel unit panel-col-forty-two firstUnit">
