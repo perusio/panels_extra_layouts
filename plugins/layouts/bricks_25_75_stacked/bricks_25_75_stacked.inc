@@ -1,4 +1,13 @@
 <?php
+/**
+ * @file   bricks_25_75_stacked.inc
+ * @author António P. P. Almeida <appa@perusio.net>
+ * @date   Fri Dec 17 05:00:37 2010
+ * 
+ * @brief  Panels plugin for the 25/75 stacked layout.
+ * 
+ * 
+ */
 
 // Plugin definition.
 $plugin = array(

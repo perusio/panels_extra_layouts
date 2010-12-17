@@ -1,4 +1,13 @@
 <?php
+/**
+ * @file   threecol_42_29_29_stacked.inc
+ * @author António P. P. Almeida <appa@perusio.net>
+ * @date   Fri Dec 17 05:05:34 2010
+ * 
+ * @brief Panels plugin for the three column 42/29/29 stacked layout.
+ * 
+ * 
+ */
 
 // Plugin definition.
 $plugin = array(

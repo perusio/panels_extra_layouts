@@ -1,6 +1,15 @@
-<!-- -*-html-helper-*- -->
-<div class="panel-display panel-threecol-42-29-29-stacked clear-block"
-<?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<?php
+/**
+ * @file   threecol-42-29-29-stacked.tpl.php
+ * @author António P. P. Almeida <appa@perusio.net>
+ * @date   Fri Dec 17 04:59:07 2010
+ * 
+ * @brief  Template for the three column 42/29/29 stacked layout.
+ * 
+ * 
+ */
+?>
+<div class="panel-display panel-threecol-42-29-29-stacked clear-block" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
   
   <div class="panel-panel line">
     <div class="panel-panel unit panel-col-forty-two firstUnit">

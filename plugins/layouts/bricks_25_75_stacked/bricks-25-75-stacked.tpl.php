@@ -1,4 +1,14 @@
-<!-- -*-html-helper-*- -->
+<?php
+/**
+ * @file   bricks-25-75-stacked.tpl.php
+ * @author António P. P. Almeida <appa@perusio.net>
+ * @date   Fri Dec 17 05:04:05 2010
+ * 
+ * @brief  Template for the 25/75 bricks panels layout.
+ * 
+ * 
+ */
+?>
 <div class="panel-display panel-bricks-25-75-stacked clear-block" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
   
   <div class="panel-panel line">
