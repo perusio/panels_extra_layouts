@@ -9,9 +9,11 @@
 }
 .header-right {
   width: 30%;
+  padding-right: .5em;
 }
 .top-stack {
   width: 100%;
+  padding: 0 .5em 1em;
 }
 .bottom-unit, .left-column {
   width: 25%;
