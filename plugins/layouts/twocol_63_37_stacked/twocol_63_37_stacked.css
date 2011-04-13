@@ -1,0 +1,26 @@
+/* CSS file for 63-37 stacked layout. */
+@import "base-grid.css";
+
+.footer, .header {
+  width: 100%;
+  padding: 1em;
+}
+
+.left {
+  width: 63%;
+}
+
+.right {
+  width: 37%;
+}
+
+/* Margins taken from the Panels module plugins */
+.lastUnit .inside { 
+  margin: 0 0 1em .5em;
+}
+.firstUnit .inside {
+  margin: 0 .5em 1em 0;
+}
+.unit .inside {
+  margin: 0 .5em 1em .5em;
+}
