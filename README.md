@@ -47,7 +47,7 @@ includes the following layouts:
 
  1. Two columns 63% 37% stacked 
 
-  ![two columns 63/37 stacked](plugins/layouts/twocol_63_37_stacked/twocol_63_37_stacked.png)
+    <!-- ![two columns 63/37 stacked](plugins/layouts/twocol_63_37_stacked/twocol_63_37_stacked.png) -->
 
  2. Two column bricks 25% 75% stacked 
 
