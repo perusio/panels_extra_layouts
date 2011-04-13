@@ -47,16 +47,15 @@ includes the following layouts:
 
  1. Two columns 63% 37% stacked 
 
-<!--    ![](./plugins/layouts/twocol_63_37_stacked/twocol_63_37_stacked.png) -->
-![two columns 63/37 stacked](https://github.com/perusio/panels_extra_layouts/blob/master/plugins/layouts/bricks_25_75_stacked/bricks_25_75_stacked.png)
+  <!-- ![two columns 63/37 stacked](./plugins/layouts/twocol_63_37_stacked/twocol_63_37_stacked.png) -->
 
  2. Two column bricks 25% 75% stacked 
 
-    ![two column bricks 72/25 stacked](./plugins/layouts/bricks_25_75_stacked/bricks_25_75_stacked.png)
+    <!-- ![two column bricks 72/25 stacked](./plugins/layouts/bricks_25_75_stacked/bricks_25_75_stacked.png) -->
 
  3. Three columns 42% 29% 29% stacked 
 
-    ![three columns 42 29 29 stacked](./plugins/layouts/threecol_42_29_29_stacked/threecol_42_29_29_stacked.png)
+    <!-- ![three columns 42 29 29 stacked](./plugins/layouts/threecol_42_29_29_stacked/threecol_42_29_29_stacked.png) -->
 
 
 ## Using this module as an example and contributing back
