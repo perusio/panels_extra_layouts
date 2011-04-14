@@ -2,7 +2,7 @@
 viewbox 0 0 50 75
 fill white rectangle 0 0 50 75
 stroke black fill grey60 rectangle 2 2 21 52
-                         rectangle 23 2 29 20
-                         rectangle 31 2 48 20
+                         rectangle 23 2 40 20
+                         rectangle 42 2 48 20
                          rectangle 23 22 48 52
                          rectangle 2 54 48 72
