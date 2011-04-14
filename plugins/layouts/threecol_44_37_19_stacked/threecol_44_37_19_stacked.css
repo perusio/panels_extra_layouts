@@ -1,0 +1,33 @@
+/* CSS file for 63-37 stacked layout. */
+.footer {
+  width: 100%;
+  padding: 1em;
+}
+
+.left {
+  width: 44%;
+}
+
+.right {
+  width: 56%;
+}
+
+.top-middle {
+  width: 66%;
+}
+
+.top-right {
+  width: 33%;
+}
+
+
+/* Margins taken from the Panels module plugins */
+.lastUnit .inside { 
+  margin: 0 0 1em .5em;
+}
+.firstUnit .inside {
+  margin: 0 .5em 1em 0;
+}
+.unit .inside {
+  margin: 0 .5em 1em .5em;
+}
