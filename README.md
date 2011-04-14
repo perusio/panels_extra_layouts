@@ -57,6 +57,10 @@ includes the following layouts:
 
     ![three columns 42 29 29 stacked](https://github.com/perusio/panels_extra_layouts/raw/master/plugins/layouts/threecol_42_29_29_stacked/threecol_42_29_29_stacked.png)
 
+ 4. Three columns 44% 37% 19% stacked 
+
+    ![three columns 44 37 19 stacked](https://github.com/perusio/panels_extra_layouts/raw/master/plugins/layouts/threecol_44_37_19_stacked/threecol_44_37_19_stacked.png)
+
 ## Using this module as an example and contributing back
 
 You can use this module as an example of a CTools layout
