@@ -1,0 +1,8 @@
+# ImageMagick MVG file for creating the Panels screenshot.
+viewbox 0 0 50 75
+fill white rectangle 0 0 50 75
+stroke black fill grey60 rectangle 2 2 21 52
+                         rectangle 23 2 38 20
+                         rectangle 40 2 48 20
+                         rectangle 23 22 48 52
+                         rectangle 2 54 48 72

@@ -1,4 +1,4 @@
-/* CSS file for 44/37/19 stacked layout. */
+/* CSS file for 44/35/21 stacked layout. */
 @import "base-grid.css";
 
 .footer {
@@ -15,11 +15,11 @@
 }
 
 .top-middle {
-  width: 66%;
+  width: 64%;
 }
 
 .top-right {
-  width: 33%;
+  width: 36%;
 }
 
 
