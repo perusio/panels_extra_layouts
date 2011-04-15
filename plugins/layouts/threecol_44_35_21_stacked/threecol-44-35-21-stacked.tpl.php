@@ -1,5 +1,5 @@
 <!-- -*-html-helper-*- -->
-<div class="panel-display panel-threecol-44-37-19-stacked clear-block" <?php if (!empty($css_id)) { print "id=\"$css_id\"";} ?>>
+<div class="panel-display panel-threecol-44-35-21-stacked clear-block" <?php if (!empty($css_id)) { print "id=\"$css_id\"";} ?>>
 
   <div class="panel-panel line">
     <div class="panel-panel unit left">
