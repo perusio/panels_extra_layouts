@@ -49,19 +49,23 @@ includes the following layouts:
 
     ![two columns 63/37 stacked](https://github.com/perusio/panels_extra_layouts/raw/master/plugins/layouts/twocol_63_37_stacked/twocol_63_37_stacked.png)
 
- 2. Two column bricks 25% 75% stacked 
+ 2. Two columns 77% 23% stacked 
+
+    ![two columns 77/23 stacked](https://github.com/perusio/panels_extra_layouts/raw/master/plugins/layouts/twocol_77_23_stacked/twocol_77_23_stacked.png)
+
+ 3. Two column bricks 25% 75% stacked 
 
     ![two column bricks 72/25 stacked](https://github.com/perusio/panels_extra_layouts/raw/master/plugins/layouts/bricks_25_75_stacked/bricks_25_75_stacked.png)
 
- 3. Three columns 42% 29% 29% stacked 
+ 4. Three columns 42% 29% 29% stacked 
 
     ![three columns 42 29 29 stacked](https://github.com/perusio/panels_extra_layouts/raw/master/plugins/layouts/threecol_42_29_29_stacked/threecol_42_29_29_stacked.png)
 
- 4. Three columns 44% 37% 19% stacked 
+ 5. Three columns 44% 37% 19% stacked 
 
     ![three columns 44 37 19 stacked](https://github.com/perusio/panels_extra_layouts/raw/master/plugins/layouts/threecol_44_37_19_stacked/threecol_44_37_19_stacked.png)
 
- 5. Three columns 44% 35% 21% stacked 
+ 6. Three columns 44% 35% 21% stacked 
 
     ![three columns 44 35 21 stacked](https://github.com/perusio/panels_extra_layouts/raw/master/plugins/layouts/threecol_44_35_21_stacked/threecol_44_35_21_stacked.png)
 
