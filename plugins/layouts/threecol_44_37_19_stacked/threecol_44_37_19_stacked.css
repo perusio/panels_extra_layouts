@@ -1,4 +1,6 @@
 /* CSS file for 63-37 stacked layout. */
+@import "base-grid.css";
+
 .footer {
   width: 100%;
   padding: 1em;
