@@ -63,7 +63,7 @@ includes the following layouts:
 
  5. Three columns 44% 35% 21% stacked 
 
-    ![three columns 44 35 21 stacked](https://github.com/perusio/panels_extra_layouts/raw/master/plugins/layouts/threecol_44_37_19_stacked/threecol_44_35_21_stacked.png)
+    ![three columns 44 35 21 stacked](https://github.com/perusio/panels_extra_layouts/raw/master/plugins/layouts/threecol_44_35_21_stacked/threecol_44_35_21_stacked.png)
 
 ## Using this module as an example and contributing back
 
