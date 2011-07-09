@@ -1,7 +1,6 @@
 name = Panels Extra Layouts 
 description = Additional layouts for the Panels module.
 package = Panels
-version = 7.x-1.x-dev
 php = 5.2
 core = 7.x
 dependencies[] = panels
