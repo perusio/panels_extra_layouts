@@ -1,4 +1,4 @@
-# Extra layouts for the Panels Drupal module
+# Extra Layouts for the Panels Module
 
 ## Introduction
 
@@ -20,7 +20,7 @@ CTools provides both **style** and **layout** plugins.
  + Layout plugins define layouts that are made available to any panel or
    mini-panel.
    
- This module deals only with **layouts**.
+This module deals only with **layouts**.
  
 ## Defining a layout
  
