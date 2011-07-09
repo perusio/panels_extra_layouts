@@ -3,7 +3,6 @@ name = Panels Extra Layouts
 description = Additional layouts for the Panels module.
 dependencies[] = panels
 package = Panels
-version = 6.x-1.x-dev
 php = 5
 core = 6.x
 ;;; Local Variables:
