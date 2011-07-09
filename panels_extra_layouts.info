@@ -1,11 +1,11 @@
-; $Id$
 name = Panels Extra Layouts 
 description = Additional layouts for the Panels module.
-dependencies[] = panels
 package = Panels
-version = 6.x-1.x-dev
-php = 5
-core = 6.x
+version = 7.x-1.x-dev
+php = 5.2
+core = 7.x
+dependencies[] = panels
+files[] = panels_extra_layouts.module
 ;;; Local Variables:
 ;;; mode: conf
 ;;; coding: utf-8
