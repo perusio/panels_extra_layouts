@@ -3,10 +3,10 @@
  * @file   bricks_25_75_stacked.inc
  * @author António P. P. Almeida <appa@perusio.net>
  * @date   Fri Dec 17 05:00:37 2010
- * 
+ *
  * @brief  Panels plugin for the 25/75 stacked layout.
- * 
- * 
+ *
+ *
  */
 
 // Plugin definition.
@@ -16,7 +16,7 @@ $plugin = array(
   'icon' => 'bricks_25_75_stacked.png',
   'theme' => 'bricks_25_75_stacked',
   'css' => 'bricks_25_75_stacked.css',
-  'panels' => array(
+  'regions' => array(
     'header_left' => t('Header left'),
     'header_middle' => t('Header middle'),
     'header_right' => t('Header right'),
