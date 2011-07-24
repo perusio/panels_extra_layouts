@@ -1,4 +1,13 @@
 <?php
+/**
+ * @file   twocol_30_70_stacked.inc
+ * @author António P. P. Almeida <appa@perusio.net>
+ * @date   Sun Jul 24 20:41:58 2011
+ *
+ * @brief  The two column 30/70 stacked layout.
+ *
+ *
+ */
 
 // Plugin definition.
 $plugin = array(
