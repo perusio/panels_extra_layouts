@@ -1,0 +1,27 @@
+/* CSS file for the 7 62 31 layout */
+@import "base-grid.css";
+
+.panel-col-seven {
+  width: 7%;
+}
+.panel-col-sixtytwo {
+  width: 62%;
+}
+.panel-col-thirtyone {
+  width: 31%;
+}
+
+.panel-header, .panel-footer {
+  width: 100%;
+}
+
+/* Margins taken from the Panels module plugins */
+.lastUnit .inside {
+  margin: 0 0 1em .5em;
+}
+.firstUnit .inside {
+  margin: 0 .5em 1em 0;
+}
+.unit .inside {
+  margin: 0 .5em 1em .5em;
+}

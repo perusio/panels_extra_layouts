@@ -1,0 +1,5 @@
+# ImageMagick MVG file for creating the Panels icon.
+viewbox 0 0 50 75
+stroke black fill grey60 rectangle 2 2 6 73
+                         rectangle 8 2 33 73
+                         rectangle 35 2 48 73
