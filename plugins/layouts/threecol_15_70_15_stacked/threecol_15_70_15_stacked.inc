@@ -17,10 +17,10 @@ $plugin = array(
   'theme' => 'threecol_15_70_15_stacked',
   'css' => 'threecol_15_70_15_stacked.css',
   'regions' => array(
-    'header' => t('header'),
-    'left' => t('left'),
-    'middle' => t('middle'),
-    'right' => t('right'),
-    'footer' => t('footer'),
+    'header' => t('Header'),
+    'left' => t('Left'),
+    'middle' => t('Middle'),
+    'right' => t('Right'),
+    'footer' => t('Footer'),
   ),
 );
