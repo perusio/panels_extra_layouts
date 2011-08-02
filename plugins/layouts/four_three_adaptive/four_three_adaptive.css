@@ -1,0 +1,37 @@
+/* CSS file for the four three adaptive layout */
+@import url('../../../css/base-grid.css');
+
+.panel-col-twenty-five {
+  width: 25%;
+}
+
+.panel-col-thirty-three {
+  width: 33%;
+}
+
+.panel-col-fifty {
+  width: 50%;
+}
+
+.panel-col-sixty-six {
+  width: 66%;
+}
+
+.panel-col-seventy-five {
+  width: 75%;
+}
+
+.panel-one-hundred {
+  width: 100%;
+}
+
+/* Margins taken from the Panels module plugins */
+.lastUnit .inside {
+  margin: 0 0 1em .5em;
+}
+.firstUnit .inside {
+  margin: 0 .5em 1em 0;
+}
+.unit .inside {
+  margin: 0 .5em 1em .5em;
+}
