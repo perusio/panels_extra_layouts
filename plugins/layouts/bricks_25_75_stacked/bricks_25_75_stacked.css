@@ -1,5 +1,5 @@
 /* CSS file for the bricks 25/75 stacked layout. */
-@import "base-grid.css";
+@import url('../../../css/base-grid.css');
 
 .header-left {
   width: 55%;
@@ -24,7 +24,7 @@
 
 
 /* Margins taken from the Panels module plugins */
-.lastUnit .inside { 
+.lastUnit .inside {
   margin: 0 0 1em .5em;
 }
 .firstUnit .inside {

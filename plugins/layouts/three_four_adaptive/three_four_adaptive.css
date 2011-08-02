@@ -1,5 +1,5 @@
 /* CSS file for the three four adaptive layout */
-@import "base-grid.css";
+@import url('../../../css/base-grid.css');
 
 .panel-col-twenty-five {
   width: 25%;
