@@ -92,7 +92,9 @@ function panels_extra_layouts_adaptive_hash($indexes = array(), $columns = 3, $m
   if ($h != 0 && $columns == 4) {
     // If we are in a special situation correct it. The hashing function is quite
     // naive. It's the sum of the column indexes in each row.
-    if ($n == 2 && ($h == 7  || ($h == 5 && array_pop(sscanf($indexes[1], "%*1d%d")) == 3)))
+    // Some cases we get an incorrect value that needs to be corrected.
+    if ($n == 2 && $h == 6) return 4;
+    if ($n == 2 && ($h == 7 || ($h == 5 && array_pop(sscanf($indexes[1], "%*1d%d")) == 3)))
       return 3;
   }
   return $h;
