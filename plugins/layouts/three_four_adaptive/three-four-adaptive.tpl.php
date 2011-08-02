@@ -86,7 +86,7 @@
      if ($h == 0) continue;
   ?>
   
-  <?php if ($h == 1): ?>i<!-- 100% - 1 column -->
+  <?php if ($h == 1): ?><!-- 100% - 1 column -->
   <div class="panel-panel line">
     <div class="panel-panel unit panel-one-hundred lastUnit">
       <?php print $content[$keys[0]]; ?>
