@@ -3,7 +3,7 @@
 <div class="panel-display panel-three-four-adaptive clear-block" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
   <!-- 3x3 grid -->
   <?php
-   for ($i = 0; $i < 9; $i += 3): ?>
+   for ($i = 0; $i < 9; $i += 3):
      // Get the $content array keys of all non empty entries.
      $keys = array_keys(array_filter(array_slice($content, $i, 3, TRUE)));
      $h = panels_extra_layouts_adaptive_hash($keys, 3, 'panels_extra_layouts_adaptive_get_digit');
@@ -12,17 +12,15 @@
      if ($h == 0) continue;
   ?>
   
-  <?php switch ($h): ?>
-  <?php case 1: ?><!-- 100% - 1 column -->
+  <?php if ($h == 1): ?><!-- 100% - 1 column -->
   <div class="panel-panel line">
     <div class="panel-panel unit panel-one-hundred lastUnit">
       <?php print $content[$keys[0]]; ?>
     </div>
   </div>
-  <?php break; ?>
+  <?php endif; ?>
   
-  <?php case 3: ?>
-  <?php case 5: ?><!-- 33/66% - 2 columns -->
+  <?php if ($h == 3 || $h == 5): ?><!-- 33/66% - 2 columns -->
   <div class="panel-panel line">
     <div class="panel-panel unit panel-col-thirty-three">
       <div class="inside">
@@ -36,9 +34,9 @@
       </div>
     </div>
   </div>
-  <?php break; ?>
+  <?php endif; ?>
   
-  <?php case 4: ?><!-- 66/33% - 2 columns -->
+  <?php if ($h == 4): ?><!-- 66/33% - 2 columns -->
   <div class="panel-panel line">
     <div class="panel-panel unit panel-col-sixty-six">
       <div class="inside">
@@ -52,9 +50,9 @@
       </div>
     </div>
   </div>
-  <?php break; ?>
+  <?php endif; ?>
   
-  <?php case 6: ?><!-- 33/33/33% - 3 columns -->
+  <?php if ($h == 6): ?><!-- 33/33/33% - 3 columns -->
   <div class="panel-panel line">
     <div class="panel-panel unit panel-col-thirty-three">
       <div class="inside">
@@ -74,13 +72,12 @@
       </div>
     </div>
   </div>
-  <?php break; ?>
-  <?php endswitch; ?>
+  <?php endif; ?>
   <?php endfor; ?>
   
   <!-- 4x4 grid -->
   <?php
-   for ($j = 9; $j < 25; $i += 4): 
+   for ($j = 9; $j < 25; $j += 4): 
      // Get the $content array keys of all non empty entries.
      $keys = array_keys(array_filter(array_slice($content, $j, 4, TRUE)));
      $h = panels_extra_layouts_adaptive_hash($keys, 4, 'panels_extra_layouts_adaptive_get_digit');
@@ -89,16 +86,15 @@
      if ($h == 0) continue;
   ?>
   
-  <?php switch ($h): ?>
-  <?php case 1: ?><!-- 100% - 1 column -->
+  <?php if ($h == 1): ?>i<!-- 100% - 1 column -->
   <div class="panel-panel line">
     <div class="panel-panel unit panel-one-hundred lastUnit">
       <?php print $content[$keys[0]]; ?>
     </div>
   </div>
-  <?php break; ?>
+  <?php endif; ?>
   
-  <?php case 3: ?><!-- 25/75% - 2 columns -->
+  <?php if ($h == 3): ?><!-- 25/75% - 2 columns -->
   <div class="panel-panel line">
     <div class="panel-panel unit panel-col-twenty-five">
       <div class="inside">
@@ -112,9 +108,9 @@
       </div>
     </div>
   </div>
-  <?php break; ?>
+  <?php endif; ?>
   
-  <?php case 4: ?><!--50/50% - 2 columns -->
+  <?php if ($h == 4): ?><!--50/50% - 2 columns -->
   <div class="panel-panel line">
     <div class="panel-panel unit panel-col-fifty">
       <div class="inside">
@@ -128,9 +124,9 @@
       </div>
     </div>
   </div>
-  <?php break; ?>
+  <?php endif; ?>
   
-  <?php case 5: ?><!-- 75/25% - 2 columns -->
+  <?php if ($h == 5): ?><!-- 75/25% - 2 columns -->
   <div class="panel-panel line">
     <div class="panel-panel unit panel-col-seventy-five la">
       <div class="inside">
@@ -144,10 +140,9 @@
       </div>
     </div>
   </div>
-  <?php break; ?>
+  <?php endif; ?>
   
-  <?php case 6: ?>
-  <?php case 9: ?><!-- 25/25/50% - 3 columns -->
+  <?php if ($h ==6 || $h == 9): ?><!-- 25/25/50% - 3 columns -->
   <div class="panel-panel line">
     <div class="panel-panel unit panel-col-twenty-five">
       <div class="inside">
@@ -167,9 +162,9 @@
       </div>
     </div>
   </div>
-  <?php break; ?>
+  <?php endif; ?>
   
-  <?php case 7: ?><!-- 25/50/25% - 3 columns -->
+  <?php if ($h == 7): ?><!-- 25/50/25% - 3 columns -->
   <div class="panel-panel line">
     <div class="panel-panel unit panel-col-twenty-five">
       <div class="inside">
@@ -189,9 +184,9 @@
       </div>
     </div>
   </div>
-  <?php break; ?>
+  <?php endif; ?>
   
-  <?php case 8: ?><!-- 50/25/25% - 3 columns -->
+  <?php if ($h == 8): ?><!-- 50/25/25% - 3 columns -->
   <div class="panel-panel line">
     <div class="panel-panel unit panel-col-fifty">
       <div class="inside">
@@ -211,9 +206,9 @@
       </div>
     </div>
   </div>
-  <?php break; ?>
+  <?php endif; ?>
   
-  <?php case 10: ?><!-- 25/25/25/25% - 4 columns -->
+  <?php if ($h == 10): ?><!-- 25/25/25/25% - 4 columns -->
   <div class="panel-panel line">
     <div class="panel-panel unit panel-col-twenty-five">
       <div class="inside">
@@ -239,7 +234,6 @@
       </div>
     </div>
   </div>
-  <?php break; ?>
-  <?php endswitch; ?>
+  <?php endif; ?>
   <?php endfor; ?>
 </div>

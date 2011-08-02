@@ -17,31 +17,31 @@ $plugin = array(
   'theme' => 'three_four_adaptive',
   'css' => 'three_four_adaptive.css',
   'panels' => array(
-    11 => t('Header left'),
-    12 => t('Header center'),
-    13 => t('Header right'),
-    21 => t('Top left'),
-    22 => t('Top middle'),
-    23 => t('Top right'),
-    31 => t('Middle top left'),
-    32 => t('Middle top center'),
-    33 => t('Middle top bottom'),
-    41 => t('Middle below top left'),
-    42 => t('Middle below top center left'),
-    43 => t('Middle below top center right'),
-    44 => t('Middle below top right'),
-    51 => t('Middle above bottom left'),
-    52 => t('Middle above bottom center left'),
-    53 => t('Middle above bottom center right'),
-    54 => t('Middle above bottom right'),
-    61 => t('Bottom left'),
-    62 => t('Bottom center left'),
-    63 => t('Bottom center right'),
-    64 => t('Bottom right'),
-    71 => t('Footer left'),
-    72 => t('Footer center left'),
-    73 => t('Footer center right'),
-    74 => t('Footer right'),
+    '11' => t('Header left'),
+    '12' => t('Header center'),
+    '13' => t('Header right'),
+    '21' => t('Top left'),
+    '22' => t('Top middle'),
+    '23' => t('Top right'),
+    '31' => t('Middle top left'),
+    '32' => t('Middle top center'),
+    '33' => t('Middle top bottom'),
+    '41' => t('Middle below top left'),
+    '42' => t('Middle below top center left'),
+    '43' => t('Middle below top center right'),
+    '44' => t('Middle below top right'),
+    '51' => t('Middle above bottom left'),
+    '52' => t('Middle above bottom center left'),
+    '53' => t('Middle above bottom center right'),
+    '54' => t('Middle above bottom right'),
+    '61' => t('Bottom left'),
+    '62' => t('Bottom center left'),
+    '63' => t('Bottom center right'),
+    '64' => t('Bottom right'),
+    '71' => t('Footer left'),
+    '72' => t('Footer center left'),
+    '73' => t('Footer center right'),
+    '74' => t('Footer right'),
   ),
 );
 
@@ -86,7 +86,7 @@ function panels_extra_layouts_adaptive_hash($indexes = array(), $columns = 3, $m
   // Count the number of elements in the given row.
   $n = count($indexes);
   // Compute the hash.
-  $h = $n == 1 ?  1 : array_sum(array_map($mapper_f, $keys));
+  $h = $n == 1 ?  1 : array_sum(array_map($mapper_f, $indexes));
   // For 4 columns there are a couple of special cases where the hash is
   // ambiguous.
   if ($h != 0 && $columns == 4) {
