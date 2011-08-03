@@ -1,28 +1,28 @@
 # ImageMagick MVG file for creating the Panels icon.
 viewbox 0 0 50 75
-stroke black fill grey60 rectangle 2 2 16 11 
-                         rectangle 18 2 31 11
-                         rectangle 33 2 47 11
-                         rectangle 2 13 16 22      
-                         rectangle 18 13 31 22
-                         rectangle 33 13 47 22
-                         rectangle 2 24 16 33
-                         rectangle 18 24 31 33
-                         rectangle 33 24 47 33
-                         ###### 4x4 ######      
-                         rectangle 2 35 12 43
-                         rectangle 14 35 24 43
-                         rectangle 26 35 35 43
-                         rectangle 37 35 47 43
-                         rectangle 2 45 12 53
-                         rectangle 14 45 24 53
-                         rectangle 26 45 35 53
-                         rectangle 37 45 47 53
-                         rectangle 2 55 12 63
-                         rectangle 14 55 24 63
-                         rectangle 26 55 35 63
-                         rectangle 37 55 47 63
-                         rectangle 2 65 12 72
-                         rectangle 14 65 24 72
-                         rectangle 26 65 35 72
-                         rectangle 37 65 47 72
+stroke black fill grey60 rectangle 2 2 12 10 
+                         rectangle 14 2 24 10
+                         rectangle 26 2 35 10
+                         rectangle 37 2 47 10      
+                         rectangle 2 12 12 20
+                         rectangle 14 12 24 20
+                         rectangle 26 12 35 20
+                         rectangle 37 12 47 20
+                         rectangle 2 22 12 30
+                         rectangle 14 22 24 30
+                         rectangle 26 22 35 30
+                         rectangle 37 22 47 30
+                         rectangle 2 32 12 40
+                         rectangle 14 32 24 40
+                         rectangle 26 32 35 40
+                         rectangle 37 32 47 40 
+                         ###### 3x3 ######      
+                         rectangle 2 42 16 51
+                         rectangle 18 42 32 51
+                         rectangle 34 42 47 51
+                         rectangle 2 53 16 62
+                         rectangle 18 53 32 62
+                         rectangle 34 53 47 62
+                         rectangle 2 64 16 73
+                         rectangle 18 64 32 73
+                         rectangle 34 64 47 73
