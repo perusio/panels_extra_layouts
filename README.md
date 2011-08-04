@@ -50,7 +50,7 @@ This module provides **5** [two column layouts](#twocol-fixed), **4**
  5. Done.
 
 
-<h3 id="adaptive">Adaptive layouts</h3>
+<h2 id="adaptive">Adaptive layouts</h2>
 
 Adaptive layouts are sort of a *big deal*. This module provides the
 following adaptive layouts:
@@ -93,9 +93,9 @@ following adaptive layouts:
     architechture and usage is the same. Is just that now we have top
     part of the template on fourths the bottom part in thirds.
     
-### Defined Fixed layouts
+## Fixed layouts
 
-<h4 id="twocol-fixed">Two columns</h4>
+<h3 id="twocol-fixed">Two columns</h3>
 
  1. 63% 37% stacked 
  
@@ -117,7 +117,7 @@ following adaptive layouts:
  
     ![two column bricks 30/70 stacked](https://github.com/perusio/panels_extra_layouts/raw/7.x-1.x/plugins/layouts/twocol_30_70_stacked/twocol_30_70_stacked.png)
  
-<h4 id="threecol-fixed">Three columns</h4>
+<h3 id="threecol-fixed">Three columns</h3>
 
 
  1. 42% 29% 29% stacked 
