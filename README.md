@@ -20,7 +20,7 @@ the defined layout.
 **Adaptive layouts** are layouts that **adapt** to the
 content. Meaning that if a pane is empty then the pane that has
 content closer uses up that space. This idea is stolen from the
-[Panels Three Four](http://drupal.org/project/panels_three_four)
+[Panels Three Four](http://drupal.org/project/panels_three_four_layout)
 project. This idea has been developed so that the behaviour is
 consistent and allows for the creation of **153664** different
 layouts from a single template.
