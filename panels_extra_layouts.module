@@ -33,7 +33,9 @@ function panels_extra_layouts_ctools_plugin_directory($owner, $plugin_type) {
  *   The sum of all the 2nd digits in a given row of the content array.
  */
 function panels_extra_layouts_adaptive_get_digit($x) {
-  return empty($x) ? 0 : array_pop(sscanf($x, "%*1d%d"));
+  // array_pop requires a variable. Doh no love for FP on PHP :(.
+  $last_digit = sscanf($x, "%*1d%d");
+  return empty($x) ? 0 : array_pop($last_digit);
 } // panels_extra_layouts_adaptive_get_digit
 
 
