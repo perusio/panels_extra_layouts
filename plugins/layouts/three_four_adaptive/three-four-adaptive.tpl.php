@@ -118,7 +118,7 @@
       </div>
     </div>
 
-    <div class="panel-panel unit panel-fifty lastUnit">
+    <div class="panel-panel unit panel-col-fifty lastUnit">
       <div class="inside">
         <?php print $content[$keys[1]]; ?>
       </div>
